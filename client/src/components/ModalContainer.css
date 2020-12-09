@@ -1,0 +1,83 @@
+.modal_container {
+  color: #aba5a5;
+  overflow-x: hidden;
+}
+
+.header_container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 0 0;
+  margin-bottom: 29px;
+}
+
+.close_icon {
+  position: absolute;
+  right: 25px;
+  top: 39px;
+  cursor: pointer;
+}
+
+.user_image {
+  height: 141px;
+  width: 156px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+.MuiInputLabel-formControl {
+  color: #aba5a5 !important;
+}
+
+input[type="text"] {
+  border-bottom: 1px solid #aba5a5;
+}
+
+.left_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.left_section_main {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort_atr {
+  position: relative;
+  top: -2px;
+  color: #757779;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.users_list_container {
+  display: flex;
+  margin: 0 30px;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer_button {
+  padding: 12px;
+  border: none;
+  margin-left: 12px;
+  outline: none !important;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  color: white;
+}

@@ -1,0 +1,24 @@
+.user_images {
+  height: 144px;
+  width: 143px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.checked_icon {
+  position: absolute;
+  left: 118px;
+  top: 0px;
+  border-top-right-radius: 10px;
+  z-index: 2;
+  background: #3570f5;
+  padding: 10;
+  height: 40px !important;
+  width: 40px !important;
+  padding: 5px;
+  color: white;
+}
+
+.user_images:hover {
+  opacity: 0.3;
+}

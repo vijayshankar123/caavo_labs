@@ -1,0 +1,12 @@
+.container_home {
+  margin-top: 100px;
+  padding: 30px;
+}
+
+body {
+  background-color: #141414;
+}
+
+.new-font {
+  font-family: "Recursive", sans-serif !important;
+}

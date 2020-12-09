@@ -1,0 +1,66 @@
+.div_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.group_name {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.group_description {
+  color: #beb9b9;
+}
+
+.members_group {
+  font-size: 12px;
+  color: #8197a4;
+  margin-top: -12px;
+}
+.footer_div {
+  padding: 20px;
+  // top: 334px;
+  width: 184px;
+}
+
+.item_container:hover {
+  .footer_div {
+    background: #1a2731;
+  }
+  transform: scale(1.2);
+  transition: transform 0.3s linear;
+  .img_group {
+    opacity: 0.7;
+  }
+  .edit_icon {
+    visibility: visible;
+  }
+}
+
+.edit_icon {
+  position: absolute;
+  top: 35%;
+  left: 37%;
+  z-index: 10;
+  visibility: hidden;
+  padding: 8px;
+  color: white;
+  background: rgba(29, 43, 54, 0.7) !important;
+}
+.edit_icon:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+.img_group {
+  max-height: 500px;
+  width: 184px !important;
+}
+
+.item_container {
+  position: relative;
+  cursor: pointer;
+}
