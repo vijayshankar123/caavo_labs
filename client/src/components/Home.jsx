@@ -19,7 +19,7 @@ const Home = () => {
    })
     useEffect(()=>{
         const fetchData = async()=>{
-            const data =await axios.get("https://s3-ap-southeast-1.amazonaws.com/he-public-data/users49b8675.json")
+            const data =await axios.get("users49b8675.json")
             data.data.sort(function (a, b) {
                return ('' + a.name).localeCompare(b.name)
                 
