@@ -42,5 +42,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://s3-ap-southeast-1.amazonaws.com/he-public-data"
+  "proxy": "http://localhost:5000"
 }
